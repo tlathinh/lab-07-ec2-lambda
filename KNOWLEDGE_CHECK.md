@@ -14,7 +14,7 @@ Suppose your instance is running and has a public IP address, but `ssh` cannot c
 
 **Your answer:** Which path did you take in the console (service → page → tab)?
 
-...
+I didn't have .pem file for aws.
 
 ## 2. Lambda: why didn't my function run?
 
@@ -26,7 +26,7 @@ Suppose you uploaded a new book to your bucket, but several minutes later MongoD
 
 **Your answer:** Which path did you take in the console (service → page → tab)?
 
-...
+Might have not run chalice deploy.
 
 ## 3. Lambda: where do I find the error?
 
@@ -38,7 +38,7 @@ Suppose the function did start, but MongoDB still has no document for the book. 
 
 **Your answer:** Which path did you take in the console (service → page → tab)?
 
-...
+Go to aws console and look through the log stream.
 
 ## 4. EC2 or Lambda: a backlog or new uploads?
 
@@ -54,4 +54,5 @@ For comparison, typical times in this lab:
 
 **Your answer:**
 
-...
+Case A, use EC2 to utilize faster analyze time and once instance.
+Case B, use Lambda to only pay when used and doesn't run all day like EC2.
